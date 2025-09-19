@@ -119,11 +119,6 @@ namespace MathQuize
             }
         }
 
-        private void timer1_Tick_1(object sender, EventArgs e)
-        {
-            timer1.Tick += new EventHandler(timer1_Tick);
-        }
-
         private void answer_Enter(object sender, EventArgs e)
         {
        
